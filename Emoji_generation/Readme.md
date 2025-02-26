@@ -38,6 +38,7 @@ Get API Status
 Endpoint: GET /
 
 Emotion to Emoji Mapping
+
 Happy: 😊
 Neutral: 😐
 Angry: 😡
