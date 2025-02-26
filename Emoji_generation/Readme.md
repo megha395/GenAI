@@ -15,11 +15,11 @@ This project detects facial expressions from an image using Mediapipe's FaceMesh
 ## Project Structure
 Emoji_generation/
 
---> main.py  # Standalone script for face-to-emoji conversion
-│-- api.py  # FastAPI server implementation
-│-- notebook.ipynb  # Jupyter Notebook for interactive testing
-│-- README.md  # Project documentation
-│-- requirements.txt  # List of dependencies
+* main.py  # Standalone script for face-to-emoji conversion
+* api.py  # FastAPI server implementation
+* notebook.ipynb  # Jupyter Notebook for interactive testing
+* README.md  # Project documentation
+* requirements.txt  # List of dependencies
 
 ### Installation
 First, install the required dependencies:
