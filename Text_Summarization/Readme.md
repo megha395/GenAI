@@ -24,5 +24,18 @@ It utilizes **Hugging Face's Transformers**, the **Sumy** library, and **AllenAI
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure 
+GenAI/Text_Summarization/ 
+* text_summarization.ipynb → Main script implementing all summarization models.
+* requirements.txt → List of dependencies to run the project.
+
+## Model Comparison  
+
+| Model                        | Type         | Summary Style                          | Strengths  | Weaknesses  |
+|------------------------------|-------------|----------------------------------------|------------|-------------|
+| **BART (facebook/bart-large-cnn)**  | Abstractive | Extracts key sentences | Good for document summarization | May rely on first few sentences |
+| **Pegasus (google/pegasus-xsum)**   | Abstractive | Headline-style, concise | Captures gist well | May lose finer details |
+| **Sumy (LexRank Algorithm)**        | Extractive  | Concatenates key sentences | Simple and fast | Not truly abstractive |
+| **PRIMERA (allenai/PRIMERA)**       | Abstractive | Summarizes long texts | Handles complex documents | Requires more computation |
+
 
