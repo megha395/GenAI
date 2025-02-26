@@ -46,3 +46,7 @@ This project detects **facial emotions** from images using **Mediapipe FaceMesh*
 - **OpenCV** (for image processing)  
 - **FastAPI** (for API integration)  
 
+## Contributing
+Contributions are welcome! Feel free to submit a pull request or open an issue.
+
+##### *If you find this repository useful, don't forget to star ⭐ it!*
