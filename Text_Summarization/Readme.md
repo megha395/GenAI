@@ -27,7 +27,6 @@ It utilizes **Hugging Face's Transformers**, the **Sumy** library, and **AllenAI
 ## 📂 Project Structure 
 GenAI/Text_Summarization/ 
 * text_summarization.ipynb → Main script implementing all summarization models.
-* requirements.txt → List of dependencies to run the project.
 
 ## Model Comparison  
 
