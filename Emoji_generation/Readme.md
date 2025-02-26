@@ -1,18 +1,18 @@
-Face to Emoji Generator
+# Face to Emoji Generator
 
 This project detects facial expressions from an image using Mediapipe's FaceMesh and maps the detected expression to a relevant emoji. It includes:
 * A Python script for standalone execution
 * A FastAPI server for API-based access
 * A Jupyter Notebook for step-by-step analysis
 
-Features
+## Features
 * Detects facial expressions from an image
 * Uses Mediapipe FaceMesh for facial landmark detection
 * Maps detected expressions to relevant emoji
 * Provides an API using FastAPI
 * Works with only a single face image
 
-Project Structure
+## Project Structure
 Emoji_generation/
 │-- main.py  # Standalone script for face-to-emoji conversion
 │-- api.py  # FastAPI server implementation
@@ -20,11 +20,11 @@ Emoji_generation/
 │-- README.md  # Project documentation
 │-- requirements.txt  # List of dependencies
 
-Installation
+### Installation
 First, install the required dependencies:
 pip install -r requirements.txt
 
-Usage
+### Usage
 1. Running the FastAPI Server
 Start the FastAPI server using:
 uvicorn api:app --host 0.0.0.0 --port 8000
@@ -37,7 +37,7 @@ Endpoint: POST /predict Description: Upload a face image and receive an emoji pr
 Get API Status
 Endpoint: GET /
 
-Emotion to Emoji Mapping
+#### Emotion to Emoji Mapping
 
 Happy: 😊
 Neutral: 😐
