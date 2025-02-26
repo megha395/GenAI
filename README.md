@@ -26,3 +26,23 @@ This project compares different **text summarization models** using **Hugging Fa
 | **PRIMERA (allenai/PRIMERA)**       | Abstractive | Summarizes long texts | Handles complex documents | Requires more computation |
 
 
+### 2. Emoji Generation from Facial Expression  
+
+This project detects **facial emotions** from images using **Mediapipe FaceMesh** and maps them to corresponding emojis.  
+
+#### Process:  
+1. **Load an image**  
+2. **Detect facial landmarks** using **Mediapipe**  
+3. **Analyze eye openness & mouth movement**  
+4. **Classify emotion** into categories:  
+   - 😊 Happy  
+   - 😐 Neutral  
+   - 😡 Angry  
+   - 😮 Surprise  
+5. **Return the corresponding emoji**  
+
+#### Technologies Used:
+- **Mediapipe** (for face landmark detection)  
+- **OpenCV** (for image processing)  
+- **FastAPI** (for API integration)  
+
