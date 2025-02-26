@@ -1,0 +1,5 @@
+fastapi==0.115.8
+mediapipe==0.10.21
+numpy==2.2.3
+opencv_contrib_python==4.11.0.86
+opencv_python==4.10.0.84
